@@ -43,7 +43,6 @@ h1 {
 .result {
   width: 400px;
   height: 250px;
-  /* display: flex; */
   display: none;
   margin-top: 30px;
   border-radius: 5px;

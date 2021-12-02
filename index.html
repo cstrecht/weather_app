@@ -11,36 +11,32 @@
     <h1>How's the weather today?</h1>
     <form class="search">
       <input
-        class="#"
-        type="text"
+        type="search"
         id="searchInput"
-        placeholder="Country, city..."
+        placeholder="Country, state, city..."
       />
-      <button>Search</button>
+      <button id="btn">Search</button>
     </form>
-
     <div class="result">
       <!-- pais ou cidade-->
       <div class="title">---</div>
-
       <div class="info">
         <!-- infos sobre a temperatura -->
         <div class="temp">
-          <div class="tempTitle">temperature</div>
-          <div class="tempInfo">-- <sup>C</sup></div>
-          <img
-            src="http://openweathermap.org/img/wn/10d@2x.png"
-            alt="image representing the temperature"
-          />
+          <div class="tempTitle">Temperature</div>
+          <div class="tempInfo">-- <sup>°C</sup></div>
         </div>
         <!-- infos sobre o vento -->
         <div class="wind">
           <div class="windTitle">Wind</div>
           <div class="windInfo">-- <span>km/h</span></div>
-          <div class="windArea">
-            <div class="windPoint"></div>
           </div>
+          <img
+          src="http://openweathermap.org/img/wn/10d@2x.png"
+          alt="image representing the temperature"
+        />
         </div>
+        
       </div>
     </div>
     <div class="noResult"></div>

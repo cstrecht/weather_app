@@ -51,4 +51,6 @@ h1 {
 }
 .noResult {
   color: white;
+  font-size: 12px;
+  text-shadow: 2px 2px 5px black;
 }

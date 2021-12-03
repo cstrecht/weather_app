@@ -6,9 +6,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
     <title>Weather today</title>
-    <h1>How's the weather today?</h1>
-    <input class="#" type="text" placeholder="Country, city..." />
-    <button class="search">Search</button>
   </head>
-  <body></body>
+  <body>
+    <h1>How's the weather today?</h1>
+    <form class="search">
+      <input class="#" type="text" placeholder="Country, city..." />
+      <button>Search</button>
+    </form>
+
+    <div class="result">
+      <!-- pais ou cidade-->
+      <div class="title">---</div>
+      <div class="info">
+        <!-- infos sobre a temperatura -->
+        <div class="temp">
+          <div class="tempTitle">temperature</div>
+          <div class="tempInfo">C</div>
+          <img src="#" alt="image representing the temperature" />
+        </div>
+        <!-- infos sobre o vento -->
+        <div class="wind">
+          <div class="windTitle">Wind</div>
+          <div class="windInfo">km/h</div>
+          <!-- ? -->
+          <img src="#" alt="image representing the wind" />
+        </div>
+      </div>
+    </div>
+    <div class="noResult"></div>
+  </body>
 </html>
